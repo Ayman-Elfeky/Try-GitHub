@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+div:first-child {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: teal;
+    color: black;
+    position: absolute;
+    left: 450px;
+    top: 200px;
+
+    /* instead of position absolute left and top */
+    /* transform: translate(550px, 200px); */
+}
+
