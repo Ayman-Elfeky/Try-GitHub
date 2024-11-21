@@ -35,3 +35,51 @@ div:nth-child(2) {
     /* instead of position absolute left and top */
     /* transform: translate(550px, 200px); */
 }
+
+div:nth-child(3) {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: teal;
+    color: black;
+    position: absolute;
+    left: 950px;
+    top: 200px;
+
+    /* instead of position absolute left and top */
+    /* transform: translate(550px, 200px); */
+}
+
+.em {
+    width: 100%;
+    background-color: #45a2ee;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+}
+
+.em h1 {
+    color: #f3f3f3;
+}
+
+.em ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.em ul li {
+    padding: 20px;
+    color: #f3f3f3;
+    transition: 0.3s;
+}
+
+.em ul li:hover {
+    background-color: #3e92d6;
+    cursor: pointer;
+    color: white;
+}
